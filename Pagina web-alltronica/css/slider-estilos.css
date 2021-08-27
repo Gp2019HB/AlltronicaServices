@@ -1,0 +1,227 @@
+.contenedor-contenedor-slider-principal {
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.contenedor-slider-principal {
+    display: flex;
+    width: 400%;
+    animation: cambio 17s infinite linear;
+    animation-timing-function: ease-in-out;
+}
+
+.contents-sliders-ul {
+    width: 100%;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    28% {margin-left: 0;}
+
+    33% {margin-left: -100%;}
+    61% {margin-left: -100%;}
+
+    66% {margin-left: -200%;}
+    94% {margin-left: -200%;}
+
+    100% {margin-left: -300%;}
+}
+
+
+.contents-sliders-li {
+    background-image: url(../images/back13.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 280px;
+    
+    position: relative;
+}
+.contents-sliders-li2 {
+    background-image: url(../images/camaras.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 280px;
+
+    position: relative;
+}
+.contents-sliders-li3 {
+    background-image: url(../images/slider3.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 280px;
+
+    position: relative;
+}
+.contents-sliders-li4 {
+    background-image: url(../images/slider4.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 280px;
+
+    position: relative;
+}
+
+
+.contenedor-escrito-slider {
+    text-align: left;
+    color: rgb(209, 248, 81);
+    width: 90%;
+    margin: auto;
+    
+}
+.contenedor-escrito-slider1{
+    text-align: initial;
+    color: rgb(218, 199, 136);
+    width: 90%;
+    margin: auto;
+}
+.contenedor-escrito-slider1 h1 {
+    margin: 0;
+    color: rgba(228, 184, 41, 0.8);
+    margin: 0;
+    padding-top: 40px;
+}
+.contenedor-escrito-slider1 p {
+    font-family: 'Manrope', sans-serif;
+}
+.contenedor-escrito-slider1 a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    /* border: 3px solid red; */
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #ee420e;
+    transition: all .4s;
+}
+
+.contenedor-escrito-slider h1 {
+    margin: 0;
+    color: rgba(228, 184, 41, 0.8);
+    margin: 0;
+    padding-top: 40px;
+}
+.contenedor-escrito-slider p {
+    font-family: 'Manrope', sans-serif;
+}
+.contenedor-escrito-slider a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    /* border: 3px solid red; */
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #df431c;
+    transition: all .4s;
+}
+
+.contents-sliders-ul a:hover {
+    color: #e64b24;
+    background-color: #fff;
+    box-shadow: 0 0  10px rgba(0, 0, 0, 4);
+}
+
+@media (min-width: 500px) {
+    .contents-sliders-li,   
+    .contents-sliders-li2,    
+    .contents-sliders-li3,  
+    .contents-sliders-li4 {
+        height: 300px;
+        background-position: center;
+
+    }    
+
+    .contenedor-escrito-slider h1 {
+        padding-top: 100px;
+    }
+
+    .contenedor-escrito-slider p {
+        margin-top: 10px;
+    }
+    .contenedor-escrito-slider a {
+        margin-top: 10px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .contents-sliders-li,   
+    .contents-sliders-li2,    
+    .contents-sliders-li3,  
+    .contents-sliders-li4 {
+        height: 400px;
+        background-position: center;
+
+    } 
+    
+    .contenedor-escrito-slider h1 {
+        padding-top: 150px;
+        font-size: 2em;
+    }
+
+    .contenedor-escrito-slider p {
+        margin-top: 40px;
+    }
+    .contenedor-escrito-slider a {
+        margin-top: 40px;
+    }
+}
+@media (min-width: 1020px) {
+    .contents-sliders-li,   
+    .contents-sliders-li2,    
+    .contents-sliders-li3,  
+    .contents-sliders-li4 {
+        height: 500px;
+        background-position: center;
+
+    } 
+    
+    .contenedor-escrito-slider h1 {
+        padding-top: 150px;
+        font-size: 2.5em;
+    }
+
+    .contenedor-escrito-slider p {
+        margin-top: 60px;
+        font-size: 1.1em;
+    }
+    .contenedor-escrito-slider a {
+        margin-top: 100px;
+    }
+}
+@media (min-width: 1200px) {
+
+    .contents-sliders-li,   
+    .contents-sliders-li2,    
+    .contents-sliders-li3,  
+    .contents-sliders-li4 {
+        height: 760px;
+        background-position: center;
+    } 
+    
+    .contenedor-escrito-slider h1 {
+        padding-top: 240px;
+        font-size: 3.5em;
+    }
+
+    .contenedor-escrito-slider p {
+        margin-top: 60px;
+        font-size: 1.5em;
+    }
+    .contenedor-escrito-slider a {
+        margin-top: 100px;
+    }
+}
+
+
+
